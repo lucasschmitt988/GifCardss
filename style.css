@@ -34,10 +34,10 @@ position: relative;
 transition: transform 0.8s;
 transform: preserve-3d;
 }
-.cartão-mentira, cartão-verso{
+.cartão-mentira, .cartão-verso{
     position: absolute;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15)
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
     backface-visibility: hidden;
 }
 .cartao-verso{
